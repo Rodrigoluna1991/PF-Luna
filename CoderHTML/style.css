@@ -1,0 +1,63 @@
+.imagenInicio {
+    margin: 3px 3px 3px 3px;
+    background-color: black;
+
+}
+
+.main1 {
+    background-color: black;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagentesHtml/imagenfondohtml.jpg), rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main2 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main3 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contactoss {
+    height: 15%;
+    background-color: yellow;
+}
+
+.centroSuc {
+    background-color: black;
+    height: 120%;
+
+}
+
+
+.card-img-overlay {
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.formularios{
+    
+    height: 60%;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url(imagentesHtml/imagenmancuerna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ 
+ 
+}
