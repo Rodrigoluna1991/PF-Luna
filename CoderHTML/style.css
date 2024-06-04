@@ -3,6 +3,14 @@
     background-color: black;
 
 }
+.inicioPagina {
+padding-top: 50px;
+}
+
+.centroSuc{
+    padding-top: 30px;
+}
+
 
 .main1 {
     background-color: black;
@@ -13,6 +21,8 @@
     background: url(imagentesHtml/imagenfondohtml.jpg), rgba(0, 0, 0, 1);
     background-size: cover;
     background-position: center;
+    padding-bottom: 50px;
+   
 }
 
 
@@ -57,7 +67,8 @@
     background: url(imagentesHtml/imagenmancuerna.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
- 
- 
+    
+}
+.imapesascentro{
+    filter: blur(1px);
 }
