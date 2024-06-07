@@ -1,0 +1,119 @@
+
+$background-color-secundario: yellow;
+$backgound-color-primario: black;
+
+
+.imagenInicio {
+    margin: 3px 3px 3px 3px;
+    $background-color-principal: black; 
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+.inicioPagina {
+padding-top: 50px;
+}
+
+.centroSuc{
+    padding-top: 30px;
+}
+
+
+.main1 {
+    $background-color-principal: black; 
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagentesHtml/imagenfondohtml.jpg), rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+   
+}
+
+
+.main2 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main3 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contactoss {
+    height: 15%;
+    
+}
+
+.centroSuc {
+    $background-color-principal: black; 
+    height: 120%;
+
+}
+
+
+.card-img-overlay {
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.formularios{
+    
+    height: 60%;
+    $background-color-principal: black; 
+    color: yellow;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url(imagentesHtml/imagenmancuerna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.imapesascentro{
+    filter: blur(1px);
+}
+.boton{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 25px;
+    display: inline-block;
+    font-weight: bold;
+    color: yellow;
+    $background-color-principal: black; 
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: backgraund-color 0.3s color 0.3s;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+.boton::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    z-index: 1;
+    transition: transform 0.3s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.boton:hover{
+    
+    background-color: yellow;
+    $background-color-principal: black; 
+}
