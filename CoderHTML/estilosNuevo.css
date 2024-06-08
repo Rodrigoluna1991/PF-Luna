@@ -1,16 +1,15 @@
 .imagenInicio {
   margin: 3px 3px 3px 3px;
   background-color: black;
-
 }
+
 .inicioPagina {
-padding-top: 50px;
+  padding-top: 50px;
 }
 
-.centroSuc{
+.centroSuc {
   padding-top: 30px;
 }
-
 
 .main1 {
   background-color: black;
@@ -18,26 +17,23 @@ padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(imagentesHtml/imagenfondohtml.jpg), rgba(0, 0, 0, 1);
+  background: url(imagentesHtml/imagenfondohtml.jpg), rgb(0, 0, 0);
   background-size: cover;
   background-position: center;
   padding-bottom: 50px;
- 
 }
-
 
 .main2 {
   color: whitesmoke;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .main3 {
   color: whitesmoke;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-
 
 .contactoss {
   height: 15%;
@@ -47,17 +43,14 @@ padding-top: 50px;
 .centroSuc {
   background-color: black;
   height: 120%;
-
 }
-
 
 .card-img-overlay {
   color: yellow;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.formularios{
-  
+
+.formularios {
   height: 60%;
   background-color: black;
   color: yellow;
@@ -67,11 +60,12 @@ padding-top: 50px;
   background: url(imagentesHtml/imagenmancuerna.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-.imapesascentro{
+
+.imapesascentro {
   filter: blur(1px);
 }
+
 .boton {
   position: relative;
   overflow: hidden;
@@ -88,6 +82,7 @@ padding-top: 50px;
   position: relative;
   overflow: hidden;
 }
+
 .boton::before {
   content: "";
   position: absolute;
@@ -106,3 +101,5 @@ padding-top: 50px;
   background-color: yellow;
   color: black;
 }
+
+/*# sourceMappingURL=estilosNuevo.css.map */

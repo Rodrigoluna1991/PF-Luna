@@ -1,0 +1,111 @@
+@import 'variables';
+
+
+.imagenInicio {
+    margin: 3px 3px 3px 3px;
+    background-color: $colorPrimario;
+  
+  }
+  .inicioPagina {
+  padding-top: 50px;
+  }
+  
+  .centroSuc{
+    padding-top: 30px;
+  }
+  
+  
+  .main1 {
+    background-color: $colorPrimario;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagentesHtml/imagenfondohtml.jpg), rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+   
+  }
+  
+  
+  .main2 {
+    color: $colorLetraMain;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .main3 {
+    color: $colorLetraMain;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+  .contactoss {
+    height: 15%;
+    background-color: $colorSecundario;
+  }
+  
+  .centroSuc {
+    background-color: $colorPrimario;
+    height: 120%;
+  
+  }
+  
+  
+  .card-img-overlay {
+    color: $colorSecundario;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .formularios{
+    
+    height: 60%;
+    background-color: $colorPrimario;
+    color: $colorSecundario;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url(imagentesHtml/imagenmancuerna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .imapesascentro{
+    filter: blur(1px);
+  }
+  .boton {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 25px;
+    display: inline-block;
+    font-weight: bold;
+    color: $colorSecundario;
+    background-color: $colorPrimario;
+    border: 2px solid $colorPrimario;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: backgraund-color 0.3s color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  .boton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $colorSecundario;
+    z-index: 1;
+    transition: transform 0.3s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  
+  .boton:hover {
+    background-color: $colorSecundario;
+    color: $colorPrimario;
+  }
