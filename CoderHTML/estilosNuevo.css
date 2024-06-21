@@ -17,12 +17,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(imagentesHtml/imagenfondohtml.jpg), rgb(0, 0, 0);
+  background: url(imagentesHtml/fondo-fitnes.jpg), rgb(0, 0, 0);
   background-size: cover;
   background-position: center;
   padding-bottom: 2rem;
 }
-
 
 .main2 {
   color: whitesmoke;
@@ -102,7 +101,5 @@
   background-color: yellow;
   color: black;
 }
-
-
 
 /*# sourceMappingURL=estilosNuevo.css.map */
